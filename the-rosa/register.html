@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>The Rosa</title>
+		<!--Font awesome CDN-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+		<!--Scroll reveal CDN-->
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<link rel="stylesheet" href="styles3.css">
+	</head>
+
+	<body>
+		<header>
+		<div class="container">
+			<nav class="nav">
+				<div class="menu-toggle">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-times"></i>
+				</div>
+				<a href="index.html" class="Logo"><img src="images/logo-rosa.png" alt=""></a>
+				<ul class="nav-list">
+				  <li class="nav-item"> <a href="index.html" class="nav-link ">Home</a> 
+					</li>
+				  <li class="nav-item">
+						<a href="menu.html" class="nav-link">Menu</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Reservations</a>
+					</li>
+					<li class="nav-item">
+						<a href="register.html" class="nav-link active">Register</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Shop</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!--Header End-->
+	<section class="hero" id="hero">
+		<div class="container">
+			
+			<h2 class="sub-headline">
+				<span class="frist-letter">R</span>egister
+			</h2>
+			<h1 class="headline">The Rosa</h1>
+			<div class="headline-description">
+				<div class="separator">
+					<div class="line line-left"></div>
+					<div class="asterisk"><i class="fas fa-asterisk"></i></div>
+					<div class="line line-right"></div>
+				</div>
+				<div class="single-animation">
+					<h5>It's time to enrol</h5>
+					<a href="#form-register" class="btn cta-btn">Explore</a>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!-- Hero end-->
+	
+	
+	<section class="form-register" id="form-register">
+		<div class="regform">
+		<h1>Registration Form</h1>
+			<div class="mane">
+				<form>
+					<div id="name">
+						<h2>NAME</h2>
+						<input class="firstname" type="text" name="first_name"><br>
+						<label class="firstlabel">first name</label>
+						<input class="lastname" type="text" name="last_name">
+						<label class="lastlabel">last name</label>
+					</div>
+					
+					<h2 class="name">Country</h2>
+					<input class="country" type="text" name="country">
+					
+					<h2 class="name">Email</h2>
+					<input class="email" type="text" name="email">
+					
+					<h2 class="name">Phone</h2>
+					<input class="code" type="text" name="area_code">
+					<label class="area-code">Area Code</label>
+					<input class="number" type="text" name="phone">
+					<label class="phone-number" >Phone Number</label>
+					
+					<h2 class="name">Subject</h2>
+					<select class="option" name="subject">
+						<option disabled="disabled" selected="selected">---Choose Option---</option>
+						<option>Subject 1</option>
+						<option>Subject 2</option>
+						<option>Subject 3</option>
+					</select>
+					
+					<h2 id="customers">Are you beginner?</h2>
+					<label class="radio">
+						<input class="radio-one" type="radio" checked="checked" name="">
+						<span class="checkmark"></span>
+						Yes
+					</label>
+					<label class="radio">
+						<input class="radio-two" type="radio" name="">
+						<span class="checkmark"></span>
+						No
+					</label>
+					
+					<button type="submit">Register</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!--menu card end-->
+	
+	
+	
+	<footer>
+		<div class="container">
+			<div class="back-to-top">
+				<a href="#hero"><i class="fas fa-chevron-up"></i></a>
+			</div>
+			<div class="footer-content">
+				<div class="footer-content-about animate-top">
+					<h4>About Rosa</h4>
+					<div class="asterisk"><i class="fas fa-asterisk"></i></div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate esse odio perspiciatis impedit quo numquam, deserunt accusamus rerum dolorem eligendi. Amet soluta a voluptatem aliquam eum hic omnis illum mollitia!</p>
+				</div>
+				<div class="footer-content-divider animate-bottom">
+					<div class="social-media">
+						<h4>Follow along</h4>
+						<ul class="social-icon">
+							<li>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-facebook-square"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-pinterest"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-tripadvisor"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="newslettter-container">
+						<h4>News letter</h4>
+						<form action="" class="newletter-form">
+							<input type="text" class="newletter-input" placeholder="Your email address...">
+							<button class="newletter-btn" type="submit">
+								<i class="fas fa-envelope"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>		
+</body>
+</html>
